@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <h1>Reserva para viagem</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Insita os seus dados</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </fieldset>
+            
+        <br>
+
+        <fieldset>
+            <legend for="servicos">Serviços Desejados</legend>
+            <label for="passagens">
+            <input type="checkbox" name="passagens" value="passagens" id="passagens">Compra de Passagens
+            </label>
+            <br>
+            <label for="hospedagem">
+            <input type="checkbox" name="hospedagem" value="hospedagem" id="hospedagem">Reserva de Hospedagem
+            </label>
+            <br>
+            <label for="veiculos">
+            <input type="checkbox" name="veiculos" value="veiculos" id="veiculos">Aluguel de Veículos
+            </label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Escolha a forma de pagamento</legend>
+            <label>
+            <input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="formaPagamento" value="Boleto">Boleto
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="formaPagamento" value="PIX">PIX
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha o parazo de pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">Á Vista</option>
+                <option value="5x">5 vezes sem juros</option>
+                <option value="10x">10 vezes sem juros</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
